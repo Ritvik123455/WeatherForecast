@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<link href="Style.css" rel="stylesheet" >    
+<head>
+    
+    <title>WeatherForecast</title>
+</head>
+<body >
+    
+    <header> <svg xmlns="http://www.w3.org/2000/svg" width="50px" height="50 px" fill="currentColor" class="bi bi-cloud-sun-fill" viewBox="0 0 16 16">
+        <path d="M11.473 11a4.5 4.5 0 0 0-8.72-.99A3 3 0 0 0 3 16h8.5a2.5 2.5 0 0 0 0-5h-.027z"/>
+        <path d="M10.5 1.5a.5.5 0 0 0-1 0v1a.5.5 0 0 0 1 0v-1zm3.743 1.964a.5.5 0 1 0-.707-.707l-.708.707a.5.5 0 0 0 .708.708l.707-.708zm-7.779-.707a.5.5 0 0 0-.707.707l.707.708a.5.5 0 1 0 .708-.708l-.708-.707zm1.734 3.374a2 2 0 1 1 3.296 2.198c.199.281.372.582.516.898a3 3 0 1 0-4.84-3.225c.352.011.696.055 1.028.129zm4.484 4.074c.6.215 1.125.59 1.522 1.072a.5.5 0 0 0 .039-.742l-.707-.707a.5.5 0 0 0-.854.377zM14.5 6.5a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
+      </svg>Weather Forecast</header>
+    <br>
+    <br>
+    <div>
+        <input class="inputValue"  type="text"  placeholder="Enter city name">
+        <input class="button" type="submit" value="Search"></input>
+        <button class="location" type="button" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+          </svg> </button>
+    </div>
+    <div id="card">
+        <h1>Weather</h1>
+        <p class="nam"></p>
+        <p class="weather-icon"></p>
+        <p class="desc"></p>
+        <p class="temp"></p>
+        <p class="humidity"></p>
+        <p class="windSpeed"></p>
+        <script src="./app.js"></script>
+        <!--<p class="Date-time"></p> -->         
+    </div>
+    <br>
+    <br>
+    <div id = "forecast-box">
+        <div id="d1">1</div>
+        <div id="d2">2</div>
+        <div id="d3">3</div>
+        <div id="d4">4</div>
+        <div id="d5">5</div>
+        <div id="d6">6</div>
+        <div id="d7">7</div>
+    </div>
+    <footer>Created and developed by Ritvik Upadhyay 2023 &copy;</footer>
+</body>
+</html>

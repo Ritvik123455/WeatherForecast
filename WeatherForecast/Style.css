@@ -1,0 +1,142 @@
+header{
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:darkblue ;
+    margin-top: -8px;
+    border-radius:0px 0px 20px 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    font-weight: bold;
+            
+}
+
+div
+{
+    text-align: center;
+    
+}
+
+#card
+{
+    background-color: darkblue;
+    margin-top: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    width: 400px;
+    border: 20px;
+    border-color: black;
+    text-align: center;
+    margin: auto;
+    box-shadow: 10px 10px 5px;
+    
+}
+
+.cityName
+{
+    height: 50px;
+    width: 300px;   
+}
+
+/* button
+{
+    height: 55px;
+    background-color: rgb(14, 222, 14);
+    border-color: aqua;
+    border-radius: 5px;
+    text-decoration-color: aliceblue;
+    color: aliceblue;
+} */
+
+
+ 
+body
+{
+    background-image: url("background.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1
+{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+}
+
+.inputValue
+{
+    height: 55px;
+    width: 300px;
+}
+
+.button
+{
+    height: 60px;
+    background-color: rgb(14, 222, 14);
+    border-color: rgb(10, 208, 10);
+    border-width: 5px;
+    text-decoration-color: aliceblue ;
+    width: 100px;
+    border-radius: 5px;
+    
+    
+}
+ 
+input[value= 'Search']
+{
+    font-family: fantasy;
+    
+}
+
+.weather-icon
+{
+    background-color: blue;
+    
+
+}
+
+.location
+{
+    height: 60px;
+    background-color: rgb(14, 222, 14);
+    border-color: rgb(10, 208, 10);
+    border-width: 5px;
+    text-decoration-color: aliceblue ;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.nam{
+    font-size: 50px;
+}
+
+h1{
+    background-color: blue;
+    border-radius: 50px 50px 0px 0px;
+}
+
+#forecast-box{
+    display: grid;
+    grid-template-areas: "d1 d2 d3 d4 d5 d6 d7";
+    
+}
+ .desc{
+    text-transform: uppercase;
+    font-weight: bold;
+ }
+
+ footer{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position:fixed;
+    width: 100%;
+    background-color: darkblue;
+    bottom: 0;
+    margin-left: -20px;
+     
+
+ }
